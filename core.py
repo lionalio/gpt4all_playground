@@ -20,7 +20,7 @@ def get_candidates(input_):
     # Modeling
     outputs = model.generate(
         input_1,
-        max_length=60,
+        max_length=200,
         num_beams=5,
         no_repeat_ngram_size=2,
         num_return_sequences=5,
